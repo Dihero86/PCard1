@@ -1,0 +1,51 @@
+body {
+	background-color: black;
+}
+.postcard {
+	font-family: "Pacifico";
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+.body-left {
+	font-size: small;
+}
+input {
+	border: none;
+	border-bottom: 2px solid black;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	border: 1px solid black;
+	border-radius: 5px;
+	font-family: "Pacifico";
+	background-color: gainsboro;
+	padding: 5px;
+}
+button:hover {
+	background-color: gray;
+}
